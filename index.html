@@ -1,57 +1,133 @@
-<!doctype html>
+# Home
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#c50337" />
-  <meta name="description" content="Soft Mom Era — a gentle companion for motherhood, wellness and parenting." />
-  <title>Soft Mom Era</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soft Mom Era — Finding Peace in Chaos. A gentle digital space created to support mothers through every season of motherhood.">
+  <title>Soft Mom Era | Finding Peace in Chaos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="app-shell">
-    <header class="topbar">
-      <button class="brand" data-route="home" aria-label="Soft Mom Era home">
-        <span class="brand-mark">♡</span>
-        <span><strong>Soft Mom</strong><small>ERA</small></span>
-      </button>
 
-      <button class="aura-top" data-route="aura">
-        Ask Aura AI <span>✦</span>
-      </button>
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">S</span>
+        <span>
+          <strong>Soft Mom Era</strong>
+          <small>FINDING PEACE IN CHAOS</small>
+        </span>
+      </a>
+
+      <a class="aura-top" href="aura.html">
+        Talk to Aura ✦
+      </a>
     </header>
 
-    <main id="app" tabindex="-1"></main>
+    <main>
 
-    <nav class="bottom-nav" aria-label="Main navigation">
-      <button data-route="home">
-        <span>⌂</span>
-        <small>Home</small>
-      </button>
+      <section class="hero">
+        <span class="kicker">Welcome to your soft space</span>
 
-      <button data-route="me">
-        <span>♡</span>
-        <small>Me</small>
-      </button>
+        <h1>
+          Finding Peace<br>
+          in Chaos.
+        </h1>
 
-      <button data-route="kids">
-        <span>⌁</span>
-        <small>Kids</small>
-      </button>
+        <p>
+          Motherhood can be beautiful, overwhelming, exhausting,
+          joyful and everything in between. Soft Mom Era is a space
+          created to help you care for yourself while caring for everyone else.
+        </p>
 
-      <button class="aura-nav" data-route="aura">
-        <span>✦</span>
-        <small>Aura</small>
-      </button>
+        <a class="aura-top" href="aura.html">
+          Meet Aura ✦
+        </a>
+      </section>
 
-      <button data-route="library">
-        <span>▤</span>
-        <small>Library</small>
-      </button>
-    </nav>
+      <section class="section">
+        <div class="page-head">
+          <span class="kicker">For you, mama</span>
+          <h2>Start wherever you need softness today.</h2>
+          <p>
+            You don't have to have everything figured out.
+            Just take the next gentle step.
+          </p>
+        </div>
+
+        <div class="grid">
+
+          <article class="card">
+            <div class="icon">♡</div>
+            <h3>My Body</h3>
+            <p>
+              Understand your body, cycle, postpartum changes
+              and the seasons you're moving through.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">✦</div>
+            <h3>My Wellness</h3>
+            <p>
+              Nourishment, movement, rest, mental wellness
+              and simple ways to care for yourself.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">☼</div>
+            <h3>My Kids</h3>
+            <p>
+              Gentle, practical guidance for babies,
+              toddlers, children and teens.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">⌂</div>
+            <h3>Mom Library</h3>
+            <p>
+              Curated educational resources designed to
+              make trustworthy information easier to find.
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="section card">
+        <span class="kicker">A little reminder</span>
+
+        <h2>
+          You are allowed to care for yourself too.
+        </h2>
+
+        <p>
+          You are more than the roles you carry.
+          You are a woman, a person, a dreamer and a whole human being.
+          Your needs matter here.
+        </p>
+      </section>
+
+      <section class="section card">
+        <span class="kicker">Today's gentle thought</span>
+
+        <h2>
+          You don't have to do everything today.
+        </h2>
+
+        <p>
+          Choose what truly needs you. Let the rest wait.
+          Rest is not falling behind.
+        </p>
+      </section>
+
+    </main>
+
   </div>
-
-  <script src="data.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>

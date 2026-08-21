@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#c50337" />
+  <meta name="description" content="Soft Mom Era — a gentle companion for motherhood, wellness and parenting." />
+  <title>Soft Mom Era</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-route="home" aria-label="Soft Mom Era home">
+        <span class="brand-mark">♡</span>
+        <span><strong>Soft Mom</strong><small>ERA</small></span>
+      </button>
+
+      <button class="aura-top" data-route="aura">
+        Ask Aura AI <span>✦</span>
+      </button>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button data-route="home">
+        <span>⌂</span>
+        <small>Home</small>
+      </button>
+
+      <button data-route="me">
+        <span>♡</span>
+        <small>Me</small>
+      </button>
+
+      <button data-route="kids">
+        <span>⌁</span>
+        <small>Kids</small>
+      </button>
+
+      <button class="aura-nav" data-route="aura">
+        <span>✦</span>
+        <small>Aura</small>
+      </button>
+
+      <button data-route="library">
+        <span>▤</span>
+        <small>Library</small>
+      </button>
+    </nav>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
